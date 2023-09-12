@@ -1,10 +1,7 @@
 class Birthdays{
     public static void main(String[] args) {
-
         countTerms();
     }
-
-
 
     // Calculates the amount of terms there are {#565, 12}
     public static void countTerms () {
