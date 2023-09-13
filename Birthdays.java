@@ -3,7 +3,7 @@ class Birthdays{
         countTerms();
     }
 
-    // Calculates the amount of terms there are {#565, 12}
+    // Calculates the amount of terms there are {#565, 13}
     public static void countTerms () {
        
         final int DAYS = 365;
@@ -11,9 +11,10 @@ class Birthdays{
         int terms = 0; // amount of (n/365)
 
         for (int i = 0; i < DAYS; i++) {
-            int numerator = DAYS - i;
+            double numerator = days - i;
+            double fraction = numerator / 365;
             terms++;
-            days--;
+            System.out.println(fraction + " " + terms);
         }
     }
 }
