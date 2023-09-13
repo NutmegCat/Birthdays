@@ -34,34 +34,34 @@ class Birthdays{
             // System.out.println(fraction + " " + count + " " + sum1 + " " + sum2);
             
             if (sum1 <= 0.1) {
-                dec1 = sum1;
+                dec1 = count;
             } else {
                 if (sum1 <= 0.2) {
-                    dec2 = sum1;
+                    dec2 = count;
                 } else {
                     if (sum1 <= 0.3) {
-                        dec3 = sum1;
+                        dec3 = count;
                     } else {
                         if (sum1 <= 0.4) {
-                            dec4 = sum1;
+                            dec4 = count;
                         } else {
                             if (sum1 <= 0.5) {
-                                dec5 = sum1;
+                                dec5 = count;
                             } else {
                                 if (sum1 <= 0.6) {
-                                    dec6 = sum1;
+                                    dec6 = count;
                                 } else {
                                     if (sum1 <= 0.7) {
-                                        dec7 = sum1;
+                                        dec7 = count;
                                     } else {
                                         if (sum1 <= 0.8) {
-                                            dec8 = sum1;
+                                            dec8 = count;
                                         } else {
                                             if (sum1 <= 0.9) {
-                                                dec9 = sum1;
+                                                dec9 = count;
                                             } else {
                                                 if (sum1 <= 0.10) {
-                                                    dec10 = sum1;
+                                                    dec10 = count;
                                                 } else {
                                                     ;
                                                 }
