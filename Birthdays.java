@@ -16,7 +16,6 @@ class Birthdays {
                 probability *= (double) (DAYS - count) / DAYS;
                 count++;
             }
-
             requiredPeople[i] = count;
         }
 
